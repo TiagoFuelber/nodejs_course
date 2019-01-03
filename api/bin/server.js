@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const app = require('../src/app');
 const debug = require('debug')('nodestr:server');
@@ -32,9 +32,7 @@ function onError(error) {
         throw error;
     }
 
-    const bind = typeof port === 'string' ?
-        `Pipe ${port}` :
-        `Port ${port}`;
+    const bind = typeof port === 'string' ? `Pipe ${port}` : `Port ${port}`;
 
     switch (error.code) {
         case 'EACCESS':
