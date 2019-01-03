@@ -1,8 +1,13 @@
 # NodeJS
 
-## How to start a server
+Video lessons:
+https://www.youtube.com/watch?v=wDWdqlYxfcw&list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn
+
+## How to start the server
+
+`npm start`
 
 ## Nodemon
+
 Reloads the project when files were updated.
 `npm install nodemon --save-dev`
-
