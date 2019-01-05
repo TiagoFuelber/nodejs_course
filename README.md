@@ -11,3 +11,7 @@ https://www.youtube.com/watch?v=wDWdqlYxfcw&list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKL
 
 Reloads the project when files were updated.
 `npm install nodemon --save-dev`
+
+## Databae
+
+- This application uses MongoDB and [MongoLab](mlab.com) to host the db.
